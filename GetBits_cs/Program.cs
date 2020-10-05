@@ -28,7 +28,7 @@ namespace GetBits_cs
                 if (pos >= SZ)
                 {
                     pos = 0;
-                    dataInArray++;
+                    posInArray++;
                 }
             }
             return ul;
@@ -40,7 +40,7 @@ namespace GetBits_cs
     {
         static void Main(string[] args)
         {
-            byte[] sampleArray = new byte[10] { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+            byte[] sampleArray = new byte[11] { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
             int i;
             uint start = 3;
             uint length = 6;
